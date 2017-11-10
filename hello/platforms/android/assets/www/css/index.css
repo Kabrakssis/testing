@@ -1,0 +1,271 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;   
+}
+
+table.data {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+td {
+    padding: 20px 0 0 20px;
+}
+
+td2 {
+    padding: 20px 0 0 20px;
+    width: 20%;
+}
+
+td:first-child {
+    min-width: 80px;
+    width: 10%;
+}
+
+
+tr:last-child td {
+    padding-bottom: 0;
+}
+.inputbox{
+    border: 1px solid #d4d4d4;
+    text-align: center; !important
+    
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 100%;
+    margin: 0;
+}
+.inputbox1{
+    border: 1px solid #d4d4d4;
+    text-align: center; !important
+    
+    display: block;
+    width: 100%;
+    padding: 9px;
+    font-size: 100%;
+    margin: 0;
+}
+.inputbox2{
+    border: 1px solid #d4d4d4;
+    text-align: center; !important
+    
+    display: block;
+    width: 20%;
+    padding: 9px;
+    font-size: 100%;
+    margin: 0;
+}
+.labelage{
+    width: 10%; !important
+}
+.labelbox{
+    
+    padding: 9px;
+    display: block;
+    border: 1px solid #d4d4d4;
+    background: #ffff; /* Old browsers */
+    
+    color:black;
+    text-align: center;
+}
+.labelbox1{
+    width: 80%;
+    padding: 7px;
+    display: block;
+    border: 1px solid #d4d4d4;
+    background: #ffff; /* Old browsers */
+    
+    color:black;
+    text-align: center;
+}
+
+.labelbox2{
+    width: 100%;
+    font-size: 70%; 
+    background: #ffff; /* Old browsers */
+    
+    color:black;
+    text-align: left;
+}
+.btn_calculate{
+    background-color: #008000 !important; 
+    border: none;
+    border-radius: 15px;
+    color: white!important;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100% !important;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40%; 
+    text-shadow: 2px 2px black !important;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn_calculate:hover{
+    background-color: #008000
+}
+.btn_calculate:active{
+    background-color: #008000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);  
+}
+.padding{
+    padding: 10px;
+    
+}
+.padding1{
+    padding: 30px;
+}
+
+.fontroman{
+    font-family: "Times New Roman", Times, serif;
+}
+/* css of stopwatch */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #333;
+  color: #bbb;
+  font-family: Menlo;
+}
+
+.controls {
+  position: fixed;
+  text-align: center;
+  top: 1em;
+  width: 100%;
+}
+
+.button {
+  color: #bbb;
+  font-size: 4vw;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+.button:first-child {
+    margin-left: 0;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:hover {
+  color: white;
+}
+
+.stopwatch {
+  font-size: 20vw;
+  height: 100%;
+  line-height: 100vh;
+  text-align: center;
+}
+
+.results {
+  border-color: lime;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.backgroundworkouts{
+    background: url(../img/backgroundworkouts.png)no-repeat;
+    background-size: cover;
+    position: fixed; 
+    top:0; 
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.bluebackground{
+    background: url(../img/blueBackground.png)no-repeat;
+    background-size: cover;
+    position: fixed; 
+    top:0; 
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.murphwatch{
+    font-size:40px;
+    color:black;
+    text-shadow:none;
+}
+.bgworkoutslist {
+    background: rgba(76, 175, 80, 0.1);
+}
+
+
+/* end of stopwatch css*/
+
+/* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        .jssora02l.jssora02lds      (disabled)
+        .jssora02r.jssora02rds      (disabled)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }
+        .jssora02l.jssora02lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+        .jssora02r.jssora02rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
